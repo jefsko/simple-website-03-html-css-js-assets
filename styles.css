@@ -1,0 +1,25 @@
+/* 
+This file controls the appearance of the web page.
+It does NOT change the structure or behavior.
+*/
+
+/* Set a basic font for the page */
+body {
+    font-family: Arial, sans-serif;
+
+    /* Center all text on the page */
+    text-align: center;
+
+    /* Add space at the top of the page */
+    padding-top: 50px;
+
+    /* Light background color */
+    background-color: #f4f4f4;
+}
+
+/* Style the button slightly */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
