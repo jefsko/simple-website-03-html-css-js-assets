@@ -1,0 +1,33 @@
+# Suggested .gitignore for Simple Website Examples repos
+#
+# Copy this file into any repo as .gitignore if you want to keep common
+# operating-system/editor clutter out of Git. These examples are intentionally
+# simple static websites, so this file stays intentionally small.
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Editor/workspace folders
+# Keep this ignored unless you intentionally want to share VS Code settings.
+.vscode/
+
+# Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
